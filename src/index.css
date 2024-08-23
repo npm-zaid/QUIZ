@@ -1,0 +1,54 @@
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+  
+
+        
+    @font-face {
+        font-family:small;
+        src: url("C:/Users/zaidr/Downloads/Rejouice-Headline.woff2");
+      }
+      
+      @font-face {
+        font-family:'big';
+        src: url("C:/Users/zaidr/OneDrive/Desktop/React Js/sneakers/src/Assets/FoundersGrotesk-Semibold.woff");
+      }
+
+    body{
+      font-family: small;
+      background-color: #1c1917;
+    }
+
+
+    .btn-para{
+      transition:0.2s;
+   
+    }
+
+    .btn-icon{
+      transition:0.2s;
+      transition-delay: .2s;
+    }
+
+   
+  
+    .btn:hover .btn-icon{
+      box-shadow: 0px 0px 17px -4px #CDEA68;
+      border-color: #CDEA68;
+      transform: rotateZ(45deg);
+  
+      
+    }
+
+    .btn:hover .btn-para{
+      box-shadow: 0px 0px 17px -4px #CDEA68;
+      border-color: #CDEA68;
+      
+    }
+
+  }
