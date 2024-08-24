@@ -28,13 +28,13 @@ function App() {
 
   return (
 
-  <div className="loco bg-black  overflow-x-hidden">
+  <div className="loco overflow-x-hidden">
     
     <Navbar/>
 
     <Routes>
 
-      <Route path="/" element={<Homepage/>}/>
+      <Route path="/Ochi" element={<Homepage/>}/>
       <Route path="/about" element={<Aboutpage/>}/>
       <Route path="/work" element={<Work/>}/>
       <Route path="/insight" element={<Insight/>}/>

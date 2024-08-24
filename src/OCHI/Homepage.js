@@ -13,6 +13,7 @@ function Homepage() {
 <Herosection></Herosection>
 <Marquee></Marquee>
 <About></About>
+<div className=' h-[25vh]'></div>
 <Features_container></Features_container>
 <Clients></Clients>
 <Achievement></Achievement>

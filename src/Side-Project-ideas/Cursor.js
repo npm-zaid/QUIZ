@@ -37,7 +37,7 @@ return()=>{
   return (
     <>
   
-      <div ref={cursor}  className=' h-[80px] w-[80px] bg-[#CDEA68]  rounded-full flex items-center justify-center'><div>{props.icon}</div></div>
+      <div ref={cursor}  className=' lg:h-[80px] lg:w-[80px] h-[60px] w-[60px] bg-[#CDEA68] text-stone-800 rounded-full flex items-center justify-center'><div>{props.icon}</div></div>
 
     
     </>

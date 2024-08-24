@@ -20,6 +20,45 @@ useGSAP(()=>{
       scrub:2
     }
   })
+  gsap.from('.lower .aa',{
+    x:300,
+    
+    scrollTrigger:{
+      trigger:'.lower',
+      scroller:'body',
+      start:'top 65%',
+      end:'top 45%',
+    
+      scrub:2
+    }
+  })
+
+  gsap.from('.lower .cc a',{
+    x:-200,
+    stagger:.5,
+    scrollTrigger:{
+      trigger:'.lower',
+      scroller:'body',
+      start:'top 55%%',
+      end:'top 35%%',
+      scrub:2
+    }
+  });
+
+  gsap.from('.img-wrapper',{
+    scale:.70,
+    rotate:10,
+    duration:.5,
+    scrollTrigger:{
+      trigger:'.lowest',
+      scroller:'body',
+      start:'top 40%',
+      end:'top 20%',
+      scrub:2
+    }
+    
+});
+  
 })
 
 useEffect(()=>{
@@ -60,7 +99,7 @@ ref.current.addEventListener("mouseleave",mouseLeave)
 
 
   return (
-    <div  className=' about-wrapper min-h-screen bg-[#CDEA68] rounded-t-[2rem]'>
+    <div data-scroll data-scroll-speed="-.3" className=' about-wrapper min-h-screen bg-[#CDEA68] rounded-t-[2rem]'>
            
             <div className='upper lg:px-14 px-7 py-28 lg:text-justify text- text-small lg:text-[3.8vw] text-[7vw] lg:leading-[4.5vw] leading-[27px]   '>
             <div className='layer overflow-hidden'><h1>Ochi is a strategic presentation agency for forward-</h1></div>
@@ -68,14 +107,14 @@ ref.current.addEventListener("mouseleave",mouseLeave)
         <div className='layer overflow-hidden'> <h1><span className='underline'>prod­ucts</span>, <span className='underline'>show com­plex ideas</span>, <span className='underline'>and hire great peo­ple.</span></h1></div>
              </div>
          
-      <div className='lower lg:grid lg:gap-0  grid-cols-12 lg:px-14  px-7 text-xl lg:pt-6 pt-14 lg:pb-0 pb-10 text-zinc-700 font-[100] border-y border-y-black'>
-        <div className='col-span-6  mb-7 lg:mb-0 lg:text-xl text-2xl  '>what you can expect:</div>
+      <div className='lower lg:grid lg:gap-0  grid-cols-12 lg:px-14  px-7 text-xl lg:pt-6 pt-14 lg:pb-0 pb-10 text-zinc-700 font-[100] border-y-[.02px] border-y-[#00000082]'>
+        <div className='col-span-6  mb-7 lg:mb-0 lg:text-xl text-2xl  aa'>what you can expect:</div>
         <div className='col-span-3 lg:h-[60vh] h-[50vh] flex flex-col gap-14 items-center '>
              <h5>
             We create tailored presentations to help you persuade your colleagues, clients, or investors. Whether it’s live or digital, delivered for one or a hundred people.</h5>
             <h5>We believe the mix of strategy and design (with a bit of coffee) is what makes your message clear, convincing, and captivating.</h5>
         </div>
-        <div className='col-span-3 flex flex-col gap-2 justify-center lg:items-end '>
+        <div className='col-span-3 flex flex-col gap-2 justify-center lg:items-end cc'>
             <p>S :</p>
             <a className='underline' href="">instagram</a><a className='underline' href="">behance</a><a className='underline' href="">facebook</a><a className='underline' href="">linkedin</a>
             </div> 

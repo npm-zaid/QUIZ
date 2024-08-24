@@ -27,21 +27,21 @@ function Footer() {
 
     const cursordata=[
         {
-            icon:<i className="text-[3rem] ri-instagram-fill"></i>
+            icon:<i className="lg:text-[3rem]  text-[2.3rem] ri-instagram-fill"></i>
         },
         {
-            icon:<i className="text-[3rem] ri-behance-fill"></i>
+            icon:<i className="lg:text-[3rem]  text-[2.3rem]  ri-behance-fill"></i>
         },
         {
-            icon:<i className="text-[3rem] ri-facebook-fill"></i>
+            icon:<i className="lg:text-[3rem]  text-[2.3rem]  ri-facebook-fill"></i>
         },
         {
-            icon:<i className="text-[3rem] ri-linkedin-fill "></i>
+            icon:<i className="lg:text-[3rem]  text-[2.3rem]  ri-linkedin-fill "></i>
         }
     ]
 
   return (
-    <div className='h-screen w-full overflow-hidden bg-stone-800 pt-10 flex flex-col  justify-around'>
+    <div className='lg:h-screen w-full overflow-hidden bg-stone-800 pt-10 flex flex-col   lg:justify-around lg:gap-0 gap-20'>
 
 
       <div className='lg:px-16 px-7 flex lg:flex-row flex-col lg:gap-0 gap-[4rem]  justify-between '>
@@ -58,7 +58,7 @@ function Footer() {
         </div>
       </div>
 
-      <div className=' flex items-center justify-center lg:py-28 lg:gap-10 gap-3'>
+      <div className=' flex items-center justify-center lg:py-28 lg:gap-10 gap-5 '>
         <Cursor   icon={cursordata[0].icon}></Cursor>
         <Cursor icon={cursordata[1].icon}></Cursor>
         <Cursor icon={cursordata[2].icon}></Cursor>
@@ -67,7 +67,7 @@ function Footer() {
     </div>
 
     <div className='lg:p-10 '>
-        <h1 className='lg:text-[18vw] text-[20vw] text-stone-700 leading-10 text-nowrap font-[900]'>we are ochi</h1>
+        <h1 className='lg:text-[18vw] text-[20vw] text-stone-700 leading-10 text-nowrap  font-bold'>we are ochi</h1>
     </div>
     
     </div>

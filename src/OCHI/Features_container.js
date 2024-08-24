@@ -19,7 +19,8 @@ const cardsdata=[
         title3:'sales deck',
         title4:'slides design' ,
         title5:'agency',
-        title6:'company presentation' 
+        title6:'company presentation' ,
+       
 
 
     },
@@ -33,7 +34,8 @@ const cardsdata=[
         title3:'oales deck',
         title4:'ylides design' ,
         title5:'mngency',
-        title6:'Qompany presentation' 
+        title6:'Qompany presentation' ,
+       
     },
     {
         Img1:'https://ochi.design/wp-content/uploads/2024/08/CS_Website_1-1326x1101.png',
@@ -45,7 +47,8 @@ const cardsdata=[
         title3:'oales deck',
         title4:'ylides design' ,
         title5:'mngency',
-        title6:'Qompany presentation' 
+        title6:'Qompany presentation',
+       
     },
 ]
 

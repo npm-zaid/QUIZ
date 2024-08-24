@@ -4,9 +4,44 @@ import Button1 from './Button1'
 import Table_generator from './Table_generator'
 import pic from 'C:/Users/zaidr/OneDrive/Desktop/React Js/first_/src/Assets/star.png'
 import pic2 from 'C:/Users/zaidr/OneDrive/Desktop/React Js/first_/src/Assets/rating.png'
+import { useGSAP } from '@gsap/react'
+import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+
+
+gsap.registerPlugin(ScrollTrigger);
 
 function Clients() {
     
+
+    useGSAP(()=>{
+        gsap.from('.client1 .pic',{
+            y:60,
+            duration:1,
+            opacity:0,
+            scrollTrigger:{
+              trigger:'.client1',
+              scroller:'body',
+              start:'top 60%',
+              end:'top 40%',
+             
+              scrub:2
+            }
+          });
+
+          gsap.from('.client2 .pic',{
+            x:100,
+            opacity:0,
+            duration:1,
+            scrollTrigger:{
+              trigger:'.client2',
+              scroller:'body',
+              start:'top 60%',
+              end:'top 40%',
+              scrub:2
+            }
+          });
+    })
 
 
     const data =[
@@ -55,9 +90,9 @@ function Clients() {
 
   return (
     <div className='min-h-screen w-full bg-black '>
-         <div className='headinglg:p-14 p-7 border-b-[1px] border-stone-700 '><h1 className='font-small lg:text-6xl text-3xl font-[300] text-stone-500 capitalize'>clients review's</h1></div>
+         <div className='heading lg:p-14 p-7 border-b-[1px] border-stone-700 '><h1 className='font-small lg:text-6xl text-3xl font-[300] text-stone-500 capitalize'>clients review's</h1></div>
       <div className='lg:grid grid-cols-12 gap-4 lg:p-14 p-7 text-lg text-stone-100'>
-        <div className='col-span-3 bg-stone-900 lg:h-[70vh] lg:mb-0 mb-5 rounded-xl  shadow-2xl flex flex-col items-center justify-center gap-5 lg:p-0 p-5'><img className='lg:w-[40%] w-[30vw]' src={pic2}></img><div><Button3 Title={data[0].title}></Button3></div>
+        <div className='client1 col-span-3 bg-stone-900 lg:h-[70vh] lg:mb-0 mb-5 rounded-xl  shadow-2xl flex flex-col items-center justify-center gap-5 lg:p-0 p-5'><img className='pic lg:w-[40%] w-[30vw]' src={pic2}></img><div><Button3 Title={data[0].title}></Button3></div>
         </div>
 
         
@@ -67,16 +102,16 @@ function Clients() {
             <Button1 Title={data[1].title}></Button1>
             </div>
 
-        <div className='col-span-6 bg-stone-900 lg:h-[70vh]  rounded-xl pt-5 px-5  text-stone-300 '>
+        <div className='client2 col-span-6 bg-stone-900 lg:h-[70vh]  rounded-xl p-5  text-stone-300 '>
             <p className='pb-10 lg:text-xl text-2xl lg:text-start text-center'>William Barnes</p>
-            <img className='lg:w-[8vw] w-[50vw] lg:mx-0 mx-auto rounded-lg' src='https://ochi.design/wp-content/uploads/2023/02/William-Barnes-1-300x300.png'></img>
+            <img className='pic lg:w-[8vw] w-[50vw] lg:mx-0 mx-auto rounded-lg' src='https://ochi.design/wp-content/uploads/2023/02/William-Barnes-1-300x300.png'></img>
 <p className='pt-9 '>They were transparent about the time and the stages of the project. The end product is high quality, and I feel confident about how they were handholding the client through the process. I feel like I can introduce them to someone who needs to put a sales deck together from scratch, and they would be able to handhold the client experience from 0 to 100 very effectively from story to design. 5/5
 </p>
         </div>
       </div>
 
-      <div className='client-data  bg-stone-800 rounded-xl lg:mx-14 text-stone-300 p-3'>
-      <div className='flex justify-center items-center p-2'><img className='w-[40vh]' src={pic}></img></div>
+      <div className='client-data  bg-stone-800 rounded-xl lg:mx-14 mx-7 text-stone-300 p-3'>
+      <div className='flex justify-center items-center p-2'><img data-scroll data-scroll-speed=".1" className='lg:w-[40vh] w-[30vh]' src={pic}></img></div>
     <Table_generator ROW={row[0]}></Table_generator>
     <Table_generator ROW={row[1]}></Table_generator>
     <Table_generator ROW={row[2]}></Table_generator>

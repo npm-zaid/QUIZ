@@ -139,7 +139,7 @@ goal2.current.addEventListener("mouseleave",mouseLeave)
             </div>
 
             <div className='flex items-start justify-start gap-4 py-6'>
-                <Button1 Title={cdata.title1}></Button1>
+                <Button1 Title={cdata.title1} ></Button1>
                 <Button1 Title={cdata.title2}></Button1>
                 <Button1 Title={cdata.title3}></Button1>
                 <Button1 Title={cdata.title4}></Button1>

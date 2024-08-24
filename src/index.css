@@ -32,8 +32,10 @@
 
     .btn-icon{
       transition:0.2s;
-      transition-delay: .2s;
+      transition-delay: .3s;
+    
     }
+
 
    
   
@@ -49,6 +51,9 @@
       box-shadow: 0px 0px 17px -4px #CDEA68;
       border-color: #CDEA68;
       
+      
     }
+
+
 
   }
