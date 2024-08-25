@@ -107,14 +107,14 @@ ref.current.addEventListener("mouseleave",mouseLeave)
         <div className='layer overflow-hidden'> <h1><span className='underline'>prod­ucts</span>, <span className='underline'>show com­plex ideas</span>, <span className='underline'>and hire great peo­ple.</span></h1></div>
              </div>
          
-      <div className='lower lg:grid lg:gap-0  grid-cols-12 lg:px-14  px-7 text-xl lg:pt-6 pt-14 lg:pb-0 pb-10 text-zinc-700 font-[100] border-y-[.02px] border-y-[#00000082]'>
-        <div className='col-span-6  mb-7 lg:mb-0 lg:text-xl text-2xl  aa'>what you can expect:</div>
-        <div className='col-span-3 lg:h-[60vh] h-[50vh] flex flex-col gap-14 items-center '>
-             <h5>
+      <div className='lower lg:grid lg:gap-0  grid-cols-12 lg:px-14  px-7 text-xl lg:pt-6 pt-14 lg:pb-0 pb-10 text-zinc-700 font-[100] border-y-[.02px] border-y-[#0000004f]'>
+        <div className='col-span-6  mb-7 lg:mb-0 lg:text-xl text-xl  aa'>what you can expect:</div>
+        <div className='col-span-3 lg:h-[60vh] h-[50vh] flex flex-col gap-14 items-center'>
+             <h5 className='text-lg '>
             We create tailored presentations to help you persuade your colleagues, clients, or investors. Whether it’s live or digital, delivered for one or a hundred people.</h5>
-            <h5>We believe the mix of strategy and design (with a bit of coffee) is what makes your message clear, convincing, and captivating.</h5>
+            <h5 className='text-lg'>We believe the mix of strategy and design (with a bit of coffee) is what makes your message clear, convincing, and captivating.</h5>
         </div>
-        <div className='col-span-3 flex flex-col gap-2 justify-center lg:items-end cc'>
+        <div className='col-span-3 flex flex-col gap-2 justify-center lg:items-end cc text-lg '>
             <p>S :</p>
             <a className='underline' href="">instagram</a><a className='underline' href="">behance</a><a className='underline' href="">facebook</a><a className='underline' href="">linkedin</a>
             </div> 

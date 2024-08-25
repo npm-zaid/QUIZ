@@ -138,11 +138,11 @@ goal2.current.addEventListener("mouseleave",mouseLeave)
                 <img className='img1 h-[100%] w-[100%] object-cover' src={cdata.Img1}></img>
             </div>
 
-            <div className='flex items-start justify-start gap-4 py-6'>
+            <div className='flex gap-7 py-6 '>
                 <Button1 Title={cdata.title1} ></Button1>
                 <Button1 Title={cdata.title2}></Button1>
                 <Button1 Title={cdata.title3}></Button1>
-                <Button1 Title={cdata.title4}></Button1>
+               
                 </div>
         </div>
         
