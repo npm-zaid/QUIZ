@@ -76,7 +76,7 @@ stagger:.3
         <h5 onClick={togglemenu}><Link to = "/work">our work</Link></h5>
         <h5 onClick={togglemenu}><Link to = "/about">about us</Link></h5>
         <h5 onClick={togglemenu}><Link to = "/insight">insight</Link></h5>
-        <i onClick={togglemenu}  class="close ri-close-line absolute top-5 right-5 bg-stone-700 rounded-[50%] leading-[5.7vh] p-2 "></i>
+        <i onClick={togglemenu}  class="close ri-close-line absolute top-5 right-5 bg-stone-700 rounded-[50%] leading-[7vh] p-2 "></i>
           </div>
         </div>
 
