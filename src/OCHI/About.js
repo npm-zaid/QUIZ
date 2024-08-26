@@ -99,7 +99,7 @@ ref.current.addEventListener("mouseleave",mouseLeave)
 
 
   return (
-    <div data-scroll data-scroll-speed="-.3" className=' about-wrapper min-h-screen bg-[#CDEA68] rounded-t-[2rem]'>
+    <div data-scroll data-scroll-speed="-.2" className=' about-wrapper min-h-screen bg-[#CDEA68] rounded-t-[2rem]'>
            
             <div className='upper lg:px-14 px-7 py-28 lg:text-justify text- text-small lg:text-[3.8vw] text-[7vw] lg:leading-[4.5vw] leading-[27px]   '>
             <div className='layer overflow-hidden'><h1>Ochi is a strategic presentation agency for forward-</h1></div>

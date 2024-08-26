@@ -105,7 +105,7 @@ function Clients() {
         <div className='client2 col-span-6 bg-stone-900 lg:h-[70vh]  rounded-xl p-5  text-stone-300 '>
             <p className='pb-10 lg:text-xl text-2xl lg:text-start text-center'>William Barnes</p>
             <img className='pic lg:w-[8vw] w-[50vw] lg:mx-0 mx-auto rounded-lg' src='https://ochi.design/wp-content/uploads/2023/02/William-Barnes-1-300x300.png'></img>
-<p className='pt-9 text-md '>They were transparent about the time and the stages of the project. The end product is high quality, and I feel confident about how they were handholding clients through the process and like I can introduce them to someone who needs to put a sales deck together from scratch, and they would be able to handhold the client experience from 0 to 100 very effectively from story to design.
+<p className='pt-9 text-md '>They were transparent about the time and the stages of the project. The end product is high quality, and I feel confident about how they were handholding clients through the process and like I can introduce them to someone who needs to put a sales deck together from scratch, and they would able to handhold a client experience from 0 to 100 effectively from story to design.
 </p>
         </div>
       </div>
