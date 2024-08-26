@@ -58,7 +58,7 @@ function Herosection() {
 
 
   return (
-    <div data-scroll data-scroll-speed="-.8" className=' min-h-screen bg-stone-100'>
+    <div data-scroll data-scroll-speed="-.8" className=' min-h-screen bg-stone-900'>
         <div ref={cursor} className="lg:block hidden cursor-follower fixed  w-[3vw] h-[3vw] rounded-full border-2 border-dotted border-[#CDEA68] cursor-pointer z-40   "><div className='bg-[#CDEA68] h-1/2 w-1/2 rounded-full absolute -translate-x-[50%] -translate-y-[50%] top-[50%] left-[50%] '></div></div>
       <div className='hero-wrapper h-[80vh] lg:h-[88vh] lg:px-12  lg:pl-7 pl-2 lg:text-[10vw] text-[9vh] font-big text-[#6e6e6f] flex flex-col justify-center uppercase lg:pt-8  lg:leading-[8vw] leading-[14vw] '>
         <h1 className='lg:mb-0 mb-2' >we create</h1>
