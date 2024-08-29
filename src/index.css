@@ -10,49 +10,21 @@
 
         
     @font-face {
-        font-family:small;
-        src: url("C:/Users/zaidr/OneDrive/Desktop/React Js/first_/src/Assets/Rejouice-Headline.ttf");
+        font-family:'pavelt';
+        src: url("C:/Users/zaidr/OneDrive/Desktop/React Js/first_/src/Assets/Pavelt.ttf");
       }
-      
+
       @font-face {
         font-family:'big';
-        src: url("C:/Users/zaidr/OneDrive/Desktop/React Js/first_/src/Assets/FoundersGrotesk-Semibold.woff");
+        src: url("C:/Users/zaidr/OneDrive/Desktop/React Js/first_/src/Assets/corruptor.clean-ldr-regular.ttf");
       }
+      
+    
 
     body{
-      font-family: small;
-      background-color: #1c1917;
+      font-family:"pavelt";
     }
 
-
-    .btn-para{
-      transition:0.2s;
-   
-    }
-
-    .btn-icon{
-      transition:0.2s;
-      transition-delay: .3s;
-    
-    }
-
-
-   
-  
-    .btn:hover .btn-icon{
-      box-shadow: 0px 0px 17px -4px #CDEA68;
-      border-color: #CDEA68;
-      transform: rotateZ(45deg);
-  
-      
-    }
-
-    .btn:hover .btn-para{
-      box-shadow: 0px 0px 17px -4px #CDEA68;
-      border-color: #CDEA68;
-      
-      
-    }
 
 
 

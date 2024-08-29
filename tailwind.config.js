@@ -7,8 +7,7 @@ module.exports = {
   theme: {
     extend: {
     fontFamily:{
-      small : ['small'],
-      big :['big']
+      head : ['big'],
     }
     },
   },
